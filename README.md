@@ -507,8 +507,6 @@ python search.py --build --source scrapper/products.jsonl
 python -m uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
-Open `http://localhost:8000/docs` to use the interactive Swagger UI.
-
 ## Troubleshooting
 
 - HF_TOKEN / .env pitfalls
