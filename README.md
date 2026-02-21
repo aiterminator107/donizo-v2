@@ -379,8 +379,6 @@ Simple ASCII diagram (high level)
 
 The project reads configuration from `v2/.env` (via `v2/config.py`). Keys present in the repo `.env`:
 
-- GEMINI_API_KEY (optional) — placeholder for future Gemini extractor (not used in core pricing)
-- GEMINI_MODEL (optional) — placeholder model name (not used)
 - CHROMA_PATH — path where ChromaDB persists vectors (default: `data/chroma`)
 - PRODUCTS_PATH — path for scraped product JSON files (default: `data/products`)
 - FEEDBACK_DB — sqlite path for feedback DB (default: `data/feedback.db`)
