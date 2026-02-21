@@ -8,12 +8,11 @@ benchmark-based hourly rates.  No LLM is called during pricing.
 
 ```bash
 # 1. Install dependencies
-cd v2
 python -m pip install -r requirements.txt
 python -m playwright install chromium
 
 # 2. Prepare persistent Playwright profile (recommended)
-The scraper uses a persistent Chromium profile (`v2/bricodepot_profile`) to
+The scraper uses a persistent Chromium profile (`bricodepot_profile`) to
 store cookies, localStorage and cached resources which makes repeated scraping
 more reliable and faster. The profile is created automatically on first run,
 but you can pre-create and inspect it (recommended when debugging or to accept
@@ -26,16 +25,16 @@ python scrapper/fetch_products.py --url "https://www.bricodepot.fr/catalogue/...
 
 When the browser opens for the first time, please accept the site's cookie
 banner (\"Accepter\" / \"Tout accepter\") in the page UI. The consent is stored in
-`v2/bricodepot_profile` so subsequent headless runs reuse the same cookie state
+`bricodepot_profile` so subsequent headless runs reuse the same cookie state
 and behave consistently.
 
 Notes:
-- The profile folder is `v2/bricodepot_profile`. It is ignored by git via
+- The profile folder is `bricodepot_profile`. It is ignored by git via
   `.gitignore` and may contain sensitive cookies — do not commit it.
 - To reset state, delete the folder:
 
 ```bash
-rm -rf v2/bricodepot_profile   # or delete via Explorer on Windows
+rm -rf bricodepot_profile   # or delete via Explorer on Windows
 ```
 
 # 3. Discover links and scrape products
@@ -86,7 +85,6 @@ Contractor proposal (JSON)
 ## File layout
 
 ```
-v2/
 ├── main.py             # FastAPI app entry point + lifespan
 ├── routes.py           # 4 REST endpoints
 ├── schemas.py          # Pydantic request/response models
@@ -377,7 +375,7 @@ Simple ASCII diagram (high level)
 
 ## Environment variables (.env)
 
-The project reads configuration from `v2/.env` (via `v2/config.py`). Keys present in the repo `.env`:
+The project reads configuration from `.env` (via `config.py`). Keys present in the repo `.env`:
 
 - CHROMA_PATH — path where ChromaDB persists vectors (default: `data/chroma`)
 - PRODUCTS_PATH — path for scraped product JSON files (default: `data/products`)
@@ -388,13 +386,12 @@ The project reads configuration from `v2/.env` (via `v2/config.py`). Keys presen
 Optional runtime env:
 - HF_TOKEN — (optional) Hugging Face token to speed up model downloads and avoid anonymous rate limits
 
-These values can be set in `v2/.env` or exported in the environment before starting the server.
+These values can be set in `.env` or exported in the environment before starting the server.
 
 ## Run commands (recommendations)
 
 Development (reload on change):
 ```
-cd v2
 python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
@@ -463,11 +460,11 @@ This adjustment is applied additively to the computed `base_cost` (i.e., adjuste
 
 ## Quick jump (important files)
 
-- `v2/routes.py` — API routes (POST /price, POST /feedback, GET /search, GET /health)  
-- `v2/task_pricer.py` — deterministic labor pricing logic and formula  
-- `v2/feedback.py` — SQLite feedback store and adjustment computation  
-- `v2/search.py` — embedding generation and ChromaDB integration for semantic search  
-- `v2/config.py` — configuration and .env handling
+- `routes.py` — API routes (POST /price, POST /feedback, GET /search, GET /health)  
+- `task_pricer.py` — deterministic labor pricing logic and formula  
+- `feedback.py` — SQLite feedback store and adjustment computation  
+- `search.py` — embedding generation and ChromaDB integration for semantic search  
+- `config.py` — configuration and .env handling
 
 ## How I tested
 
@@ -493,7 +490,6 @@ Covered test cases (high level):
 Quick copy-paste commands for Windows PowerShell:
 
 ```powershell
-cd v2
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -508,7 +504,7 @@ python -m uvicorn main:app --host 0.0.0.0 --port 8000
 ## Troubleshooting
 
 - HF_TOKEN / .env pitfalls
-  - The project reads `v2/.env` via `v2/config.py`. If you add unknown keys into `.env` pydantic may raise validation errors. Recommended keys are listed in the "Environment variables" section. If you see validation errors referencing extra env keys, either remove those lines from `.env` or add corresponding optional fields in `v2/config.py`.
+  - The project reads `.env` via `config.py`. If you add unknown keys into `.env` pydantic may raise validation errors. Recommended keys are listed in the "Environment variables" section. If you see validation errors referencing extra env keys, either remove those lines from `.env` or add corresponding optional fields in `config.py`.
   - To speed up model downloads and avoid anonymous HF rate limits, set `HF_TOKEN` in your environment before starting the server:
     ```powershell
     $env:HF_TOKEN = "your_hf_token_here"
@@ -523,14 +519,14 @@ python -m uvicorn main:app --host 0.0.0.0 --port 8000
   - The server startup logs will show model loading progress.
 
 - Playwright / scraper cookies
-  - The scraper uses a persistent Chromium profile (`v2/bricodepot_profile`). For reliable headless scraping, run one headful run to accept the cookie banner manually:
+  - The scraper uses a persistent Chromium profile (`bricodepot_profile`). For reliable headless scraping, run one headful run to accept the cookie banner manually:
     ```
     python scrapper/fetch_products.py --url "https://www.bricodepot.fr/..." --out scrapper/products.jsonl --headful
     ```
   - Accept any cookie dialogs in the opened browser; the consent is then stored in the profile for subsequent headless runs.
 
 - Low or no semantic search results
-  - Ensure you ran the index build step and that `CHROMA_PATH` points at the saved index (see `v2/config.py` / `.env`).
+  - Ensure you ran the index build step and that `CHROMA_PATH` points at the saved index (see `config.py` / `.env`).
 
 - Other
   - If you hit memory or download limits when loading models, consider setting `HF_TOKEN` and/or running the embedding build on a machine with a better connection.
