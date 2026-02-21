@@ -490,6 +490,55 @@ Covered test cases (high level):
 5. Feedback flow: submitting feedback then re-pricing updates adjusted_cost.  
 6. Edge cases: empty proposal, unknown material, zero margin handling.
 
+## Getting started (Windows PowerShell)
+
+Quick copy-paste commands for Windows PowerShell:
+
+```powershell
+cd v2
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+# (optional, only if you will run the scraper)
+python -m playwright install chromium
+# Build index (optional, pre-warm model and create Chroma DB)
+python search.py --build --source scrapper/products.jsonl
+# Start the API (no reload; recommended for demos)
+python -m uvicorn main:app --host 0.0.0.0 --port 8000
+```
+
+Open `http://localhost:8000/docs` to use the interactive Swagger UI.
+
+## Troubleshooting
+
+- HF_TOKEN / .env pitfalls
+  - The project reads `v2/.env` via `v2/config.py`. If you add unknown keys into `.env` pydantic may raise validation errors. Recommended keys are listed in the "Environment variables" section. If you see validation errors referencing extra env keys, either remove those lines from `.env` or add corresponding optional fields in `v2/config.py`.
+  - To speed up model downloads and avoid anonymous HF rate limits, set `HF_TOKEN` in your environment before starting the server:
+    ```powershell
+    $env:HF_TOKEN = "your_hf_token_here"
+    python -m uvicorn main:app --host 0.0.0.0 --port 8000
+    ```
+
+- Model warm-up time
+  - On first run the SentenceTransformer model will be downloaded and materialized — this can take from under a minute to several minutes depending on network and machine. To avoid waiting at API startup, pre-warm by building the index:
+    ```
+    python search.py --build --source scrapper/products.jsonl
+    ```
+  - The server startup logs will show model loading progress.
+
+- Playwright / scraper cookies
+  - The scraper uses a persistent Chromium profile (`v2/bricodepot_profile`). For reliable headless scraping, run one headful run to accept the cookie banner manually:
+    ```
+    python scrapper/fetch_products.py --url "https://www.bricodepot.fr/..." --out scrapper/products.jsonl --headful
+    ```
+  - Accept any cookie dialogs in the opened browser; the consent is then stored in the profile for subsequent headless runs.
+
+- Low or no semantic search results
+  - Ensure you ran the index build step and that `CHROMA_PATH` points at the saved index (see `v2/config.py` / `.env`).
+
+- Other
+  - If you hit memory or download limits when loading models, consider setting `HF_TOKEN` and/or running the embedding build on a machine with a better connection.
+
 
 ## Tests
 
