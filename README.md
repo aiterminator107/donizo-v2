@@ -52,7 +52,6 @@ python -m uvicorn main:app --host 0.0.0.0 --port 8000
 
 # 5. Run tests
 python -m pytest tests/ -v
-```
 
 ## Pipeline flow
 
