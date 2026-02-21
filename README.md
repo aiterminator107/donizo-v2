@@ -8,8 +8,9 @@ benchmark-based hourly rates.  No LLM is called during pricing.
 
 ```bash
 # 1. Install dependencies
-python -m pip install -r requirements.txt
-python -m playwright install chromium
+python -m pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt  
+python -m playwright install --with-deps chromium
 
 # 2. Prepare persistent Playwright profile (recommended)
 The scraper uses a persistent Chromium profile (`bricodepot_profile`) to
