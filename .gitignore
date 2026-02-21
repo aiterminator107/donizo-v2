@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local data and databases
+data/chroma/
+data/feedback.db
+*.sqlite
+*.sqlite3
+
+# Scraper outputs / debug dumps
+panel_dump.html
+page_dump.html
+pagination_error_page_*.html
+scrapper/*.html
+
+# Playwright profile & state
+bricodepot_profile/
+.playwright/
+
+# Hugging Face / model cache (if present under project)
+.cache/
+.cache/huggingface/
+HF_HOME
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+docs/
+ 

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+playwright
+chromadb
+sentence-transformers
+google-generativeai
+python-dotenv
+pytest
+httpx

@@ -1,0 +1,163 @@
+{
+  "Plomberie": {
+    "Chauffe-eau": {
+      "Chauffe-eau électrique": "/catalogue/construction-renovation/plomberie/chauffe-eau/chauffe-eau-electrique/",
+      "Chauffe-eau gaz": "/catalogue/construction-renovation/plomberie/chauffe-eau/chauffe-eau-gaz/",
+      "Groupe de sécurité chauffe-eau": "/catalogue/construction-renovation/plomberie/chauffe-eau/groupe-de-securite-chauffe-eau/",
+      "Accessoires de chauffe-eau": "/catalogue/construction-renovation/plomberie/chauffe-eau/accessoires-de-chauffe-eau/",
+      "Flexible d'alimentation chauffe-eau": "/catalogue/construction-renovation/plomberie/chauffe-eau/flexible-dalimentation-chauffe-eau/"
+    },
+    "Alimentation en eau": {
+      "Tube & Raccord PER": "/catalogue/construction-renovation/plomberie/alimentation-en-eau/tube-raccord-per/",
+      "Tube & Raccord multicouche": "/catalogue/construction-renovation/plomberie/alimentation-en-eau/tube-raccord-multicouche/",
+      "Tube & Raccord cuivre": "/catalogue/construction-renovation/plomberie/alimentation-en-eau/tube-raccord-cuivre/",
+      "Raccord laiton": "/catalogue/construction-renovation/plomberie/alimentation-en-eau/raccord-laiton/",
+      "Flexible d'alimentation": "/catalogue/construction-renovation/plomberie/alimentation-en-eau/flexible-dalimentation/",
+      "Tube & Raccord Polyéthylène": "/catalogue/construction-renovation/plomberie/alimentation-en-eau/tube-raccord-polyethylene/",
+      "Isolation des tubes": "/catalogue/construction-renovation/plomberie/alimentation-en-eau/isolation-des-tubes/",
+      "Accessoires de fixation": "/catalogue/construction-renovation/plomberie/alimentation-en-eau/accessoires-de-fixation/",
+      "Accessoires d'alimentation": "/catalogue/construction-renovation/plomberie/alimentation-en-eau/accessoires-dalimentation/"
+    },
+    "Évacuation de l'eau": {
+      "Evacuation pour douche & baignoire": "/catalogue/construction-renovation/plomberie/evacuation-de-leau/evacuation-pour-douche-baignoire/",
+      "Evacuation pour vasque & lavabo": "/catalogue/construction-renovation/plomberie/evacuation-de-leau/evacuation-pour-vasque-lavabo/",
+      "Evacuation pour cuisine": "/catalogue/construction-renovation/plomberie/evacuation-de-leau/evacuation-pour-cuisine/",
+      "Evacuation électroménagers": "/catalogue/construction-renovation/plomberie/evacuation-de-leau/evacuation-electromenagers/",
+      "Evacuation sanitaire": "/catalogue/construction-renovation/plomberie/evacuation-de-leau/evacuation-sanitaire/",
+      "Tube et raccord d’évacuation PVC": "/catalogue/construction-renovation/plomberie/evacuation-de-leau/tube-et-raccord-devacuation-pvc/",
+      "Accessoires évacuation": "/catalogue/construction-renovation/plomberie/evacuation-de-leau/accessoires-evacuation/"
+    },
+    "Vannes et robinets d'arrêt": {
+      "Vanne d'arrêt": "/catalogue/construction-renovation/plomberie/vannes-et-robinets-darret/vanne-darret/",
+      "Robinet d'arrêt": "/catalogue/construction-renovation/plomberie/vannes-et-robinets-darret/robinet-darret/",
+      "Robinet radiateur": "/catalogue/construction-renovation/plomberie/vannes-et-robinets-darret/robinet-radiateur/",
+      "Accessoire de robinet": "/catalogue/construction-renovation/plomberie/vannes-et-robinets-darret/accessoire-de-robinet/",
+      "Mousseur et brise-jet pour robinet": "/catalogue/construction-renovation/plomberie/vannes-et-robinets-darret/mousseur-et-brise-jet-pour-robinet/"
+    },
+    "Compteur d'eau et réducteur de pression": {
+      "Compteur d'eau": "/catalogue/construction-renovation/plomberie/compteur-deau-et-reducteur-de-pression/compteur-deau/",
+      "Réducteur de pression": "/catalogue/construction-renovation/plomberie/compteur-deau-et-reducteur-de-pression/reducteur-de-pression/"
+    },
+    "Adoucisseur et sel adoucisseur d'eau": {
+      "Filtre à eau": "/catalogue/construction-renovation/plomberie/adoucisseur-et-sel-adoucisseur-deau/filtre-a-eau/",
+      "Adoucisseur d'eau": "/catalogue/construction-renovation/plomberie/adoucisseur-et-sel-adoucisseur-deau/adoucisseur-deau/",
+      "Sel adoucisseur d'eau": "/catalogue/construction-renovation/plomberie/adoucisseur-et-sel-adoucisseur-deau/sel-adoucisseur-deau/"
+    },
+    "Etanchéité": {
+      "Joint d'étanchéité": "/catalogue/construction-renovation/plomberie/etancheite/joint-detancheite/",
+      "Mastic d'étanchéité et silicone": "/catalogue/construction-renovation/plomberie/etancheite/mastic-detancheite-et-silicone/",
+      "Ruban d'étanchéité": "/catalogue/construction-renovation/plomberie/etancheite/ruban-detancheite/",
+      "Filasse": "/catalogue/construction-renovation/plomberie/etancheite/filasse/"
+    },
+    "Outils du plombier": {
+      "Déboucheur de canalisation": "/catalogue/construction-renovation/plomberie/outils-du-plombier/deboucheur-de-canalisation/",
+      "Outils de cintrage": "/catalogue/construction-renovation/plomberie/outils-du-plombier/outils-de-cintrage/",
+      "Outils de raccords": "/catalogue/construction-renovation/plomberie/outils-du-plombier/outils-de-raccords/",
+      "Coupe tube": "/catalogue/construction-renovation/plomberie/outils-du-plombier/coupe-tube/",
+      "Outils de serrage": "/catalogue/construction-renovation/plomberie/outils-du-plombier/outils-de-serrage/",
+      "Colle tuyau": "/catalogue/construction-renovation/plomberie/outils-du-plombier/colle-tuyau/"
+    }
+  },
+  "Salle de bains & WC": {
+    "Douche": {
+      "Cabine de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/cabine-de-douche/",
+      "Douche italienne": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/douche-italienne/",
+      "Paroi de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/paroi-de-douche/",
+      "Porte de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/porte-de-douche/",
+      "Receveur de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/receveur-de-douche/",
+      "Colonne de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/colonne-de-douche/",
+      "Kit de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/kit-de-douche/",
+      "Pommeau, flexible et accessoire de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/pommeau-flexible-et-accessoire-de-douche/",
+      "Robinet de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/robinet-de-douche/",
+      "Plomberie de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/douche/plomberie-de-douche/"
+    },
+    "Baignoire & Balnéo": {
+      "Baignoire": "/catalogue/amenagement-despaces/salle-de-bains-wc/baignoire-balneo/baignoire/",
+      "Baignoire balnéo": "/catalogue/amenagement-despaces/salle-de-bains-wc/baignoire-balneo/baignoire-balneo/",
+      "Baignoire îlot": "/catalogue/amenagement-despaces/salle-de-bains-wc/baignoire-balneo/baignoire-ilot/",
+      "Pare-baignoire": "/catalogue/amenagement-despaces/salle-de-bains-wc/baignoire-balneo/pare-baignoire/",
+      "Robinet baignoire": "/catalogue/amenagement-despaces/salle-de-bains-wc/baignoire-balneo/robinet-baignoire/"
+    },
+    "Meubles & rangement de salle de bains": {
+      "Modèle de salle de bains": "/catalogue/amenagement-despaces/salle-de-bains-wc/meubles-rangement-de-salle-de-bains/modele-de-salle-de-bains/",
+      "Meuble de salle de bains": "/catalogue/amenagement-despaces/salle-de-bains-wc/meubles-rangement-de-salle-de-bains/meuble-de-salle-de-bains/",
+      "Meuble gain de place": "/catalogue/amenagement-despaces/salle-de-bains-wc/meubles-rangement-de-salle-de-bains/meuble-gain-de-place/",
+      "Meuble lave-mains": "/catalogue/amenagement-despaces/salle-de-bains-wc/meubles-rangement-de-salle-de-bains/meuble-lave-mains/",
+      "Colonne salle de bains": "/catalogue/amenagement-despaces/salle-de-bains-wc/meubles-rangement-de-salle-de-bains/colonne-salle-de-bains/",
+      "Rangement mural": "/catalogue/amenagement-despaces/salle-de-bains-wc/meubles-rangement-de-salle-de-bains/rangement-mural/",
+      "Etagère pour salle de bains": "/catalogue/amenagement-despaces/salle-de-bains-wc/meubles-rangement-de-salle-de-bains/etagere-pour-salle-de-bains/"
+    },
+    "Lavabo & Vasque": {
+      "Vasque à poser": "/catalogue/amenagement-despaces/salle-de-bains-wc/lavabo-vasque/vasque-a-poser/",
+      "Vasque à encastrer": "/catalogue/amenagement-despaces/salle-de-bains-wc/lavabo-vasque/vasque-a-encastrer/",
+      "Lavabo": "/catalogue/amenagement-despaces/salle-de-bains-wc/lavabo-vasque/lavabo/",
+      "Robinet lavabo": "/catalogue/amenagement-despaces/salle-de-bains-wc/lavabo-vasque/robinet-lavabo/"
+    },
+    "WC - Broyeur & Accessoires": {
+      "WC à poser": "/catalogue/amenagement-despaces/salle-de-bains-wc/wc-broyeur-accessoires/wc-a-poser/",
+      "WC suspendu": "/catalogue/amenagement-despaces/salle-de-bains-wc/wc-broyeur-accessoires/wc-suspendu/",
+      "Broyeur": "/catalogue/amenagement-despaces/salle-de-bains-wc/wc-broyeur-accessoires/broyeur/",
+      "Meuble WC": "/catalogue/amenagement-despaces/salle-de-bains-wc/wc-broyeur-accessoires/meuble-wc/",
+      "Accessoire WC": "/catalogue/amenagement-despaces/salle-de-bains-wc/wc-broyeur-accessoires/accessoire-wc/",
+      "Abattant WC": "/catalogue/amenagement-despaces/salle-de-bains-wc/wc-broyeur-accessoires/abattant-wc/",
+      "Chasse d'eau": "/catalogue/amenagement-despaces/salle-de-bains-wc/wc-broyeur-accessoires/chasse-deau/",
+      "Robinet WC": "/catalogue/amenagement-despaces/salle-de-bains-wc/wc-broyeur-accessoires/robinet-wc/",
+      "Détartrant et déboucheur WC": "/catalogue/amenagement-despaces/salle-de-bains-wc/wc-broyeur-accessoires/detartrant-et-deboucheur-wc/"
+    },
+    "Radiateur de salle de bains": {
+      "Sèche-serviette": "/catalogue/amenagement-despaces/salle-de-bains-wc/radiateur-de-salle-de-bains/seche-serviette/",
+      "Chauffage d'appoint": "/catalogue/amenagement-despaces/salle-de-bains-wc/radiateur-de-salle-de-bains/chauffage-dappoint/"
+    },
+    "Accessoires de salle de bains": {
+      "Porte-serviettes et Patère": "/catalogue/amenagement-despaces/salle-de-bains-wc/accessoires-de-salle-de-bains/porte-serviettes-et-patere/",
+      "Porte-savon, Boîte & Support de rangement": "/catalogue/amenagement-despaces/salle-de-bains-wc/accessoires-de-salle-de-bains/porte-savon-boite-support-de-rangement/",
+      "Rideau & Barre de douche": "/catalogue/amenagement-despaces/salle-de-bains-wc/accessoires-de-salle-de-bains/rideau-barre-de-douche/",
+      "Tapis de salle de bains": "/catalogue/amenagement-despaces/salle-de-bains-wc/accessoires-de-salle-de-bains/tapis-de-salle-de-bains/",
+      "Poubelle salle de bains": "/catalogue/amenagement-despaces/salle-de-bains-wc/accessoires-de-salle-de-bains/poubelle-salle-de-bains/",
+      "Accessoires PMR": "/catalogue/amenagement-despaces/salle-de-bains-wc/accessoires-de-salle-de-bains/accessoires-pmr/",
+      "Panier à linge": "/catalogue/amenagement-despaces/salle-de-bains-wc/accessoires-de-salle-de-bains/panier-a-linge/"
+    },
+    "Luminaire de salle de bains": {
+      "Plafonnier salle de bain": "/catalogue/amenagement-despaces/salle-de-bains-wc/luminaire-de-salle-de-bains/plafonnier-salle-de-bain/",
+      "Spot salle de bain": "/catalogue/amenagement-despaces/salle-de-bains-wc/luminaire-de-salle-de-bains/spot-salle-de-bain/",
+      "Applique murale salle de bain": "/catalogue/amenagement-despaces/salle-de-bains-wc/luminaire-de-salle-de-bains/applique-murale-salle-de-bain/",
+      "Reglette salle de bain": "/catalogue/amenagement-despaces/salle-de-bains-wc/luminaire-de-salle-de-bains/reglette-salle-de-bain/"
+    },
+    "Plomberie de salle de bains & WC": {
+      "Alimentation, raccord et joint WC et salle de bains": "/catalogue/amenagement-despaces/salle-de-bains-wc/plomberie-de-salle-de-bains-wc/alimentation-raccord-et-joint-wc-et-salle-de-bains/",
+      "Mécanisme WC": "/catalogue/amenagement-despaces/salle-de-bains-wc/plomberie-de-salle-de-bains-wc/mecanisme-wc/",
+      "Évacuation WC": "/catalogue/amenagement-despaces/salle-de-bains-wc/plomberie-de-salle-de-bains-wc/evacuation-wc/",
+      "Évacuation baignoire": "/catalogue/amenagement-despaces/salle-de-bains-wc/plomberie-de-salle-de-bains-wc/evacuation-baignoire/",
+      "Siphon et bonde": "/catalogue/amenagement-despaces/salle-de-bains-wc/plomberie-de-salle-de-bains-wc/siphon-et-bonde/"
+    }
+  },
+  "Carrelage - Stratifié & Parquet": {
+    "Carrelage & Galet": {
+      "Carrelage de sol intérieur": "/catalogue/construction-renovation/carrelage-stratifie-parquet/carrelage-galet/carrelage-de-sol-interieur/",
+      "Faïence - Carrelage mural": "/catalogue/construction-renovation/carrelage-stratifie-parquet/carrelage-galet/faience-carrelage-mural/",
+      "Carrelage de sol extérieur": "/catalogue/construction-renovation/carrelage-stratifie-parquet/carrelage-galet/carrelage-de-sol-exterieur/",
+      "Mosaïque": "/catalogue/construction-renovation/carrelage-stratifie-parquet/carrelage-galet/mosaique/",
+      "Plaquette de parement": "/catalogue/construction-renovation/carrelage-stratifie-parquet/carrelage-galet/plaquette-de-parement/",
+      "Listel": "/catalogue/construction-renovation/carrelage-stratifie-parquet/carrelage-galet/listel/",
+      "Galet": "/catalogue/construction-renovation/carrelage-stratifie-parquet/carrelage-galet/galet/"
+    },
+    "Stratifié - Parquet & Sol vinyle PVC": {
+      "Sol stratifié": "/catalogue/construction-renovation/carrelage-stratifie-parquet/stratifie-parquet-sol-vinyle-pvc/sol-stratifie/",
+      "Dalle & Lame vinyles PVC": "/catalogue/construction-renovation/carrelage-stratifie-parquet/stratifie-parquet-sol-vinyle-pvc/dalle-lame-vinyles-pvc/",
+      "Lino": "/catalogue/construction-renovation/carrelage-stratifie-parquet/stratifie-parquet-sol-vinyle-pvc/lino/"
+    },
+    "Produit de pose, de finition & d'entretien": {
+      "Colle carrelage": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/colle-carrelage/",
+      "Joint carrelage": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/joint-carrelage/",
+      "Plinthe carrelage": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/plinthe-carrelage/",
+      "Croisillons carrelage": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/croisillons-carrelage/",
+      "Ragréage et préparation du carrelage": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/ragreage-et-preparation-du-carrelage/",
+      "Profilé de finition": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/profile-de-finition/",
+      "Entretien du carrelage": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/entretien-du-carrelage/",
+      "Sous-couche sol & Accessoires de pose": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/sous-couche-sol-amp-accessoires-de-pose/",
+      "Plinthe bois": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/plinthe-bois/",
+      "Barre de seuil": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/barre-de-seuil/",
+      "Vitrificateur sol": "/catalogue/construction-renovation/carrelage-stratifie-parquet/produit-de-pose-de-finition-dentretien/vitrificateur-sol/"
+    }
+  }
+}
